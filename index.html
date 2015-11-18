@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Test by yfung88</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Test</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/yfung88/test">View the Project on GitHub <small>yfung88/test</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/yfung88/test/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/yfung88/test/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/yfung88/test">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> pandas <span class="pl-k">as</span> pd
+<span class="pl-k">import</span> matplotlib.pyplot <span class="pl-k">as</span> plt
+<span class="pl-k">from</span> bokeh.plotting <span class="pl-k">import</span> <span class="pl-k">*</span>
+<span class="pl-k">from</span> bokeh.charts <span class="pl-k">import</span> HeatMap, Bar
+<span class="pl-k">import</span> seaborn <span class="pl-k">as</span> sns
+
+<span class="pl-k">%</span>matplotlib inline</pre></div>
+
+<div class="highlight highlight-source-json"><pre>[
+ {
+  <span class="pl-s"><span class="pl-pds">"</span>ename<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>ImportError<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>evalue<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>No module named seaborn<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>output_type<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>error<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>traceback<span class="pl-pds">"</span></span>: [
+   <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\u001b</span>[1;31m---------------------------------------------------------------------------<span class="pl-cce">\u001b</span>[0m<span class="pl-pds">"</span></span>,
+   <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\u001b</span>[1;31mImportError<span class="pl-cce">\u001b</span>[0m                               Traceback (most recent call last)<span class="pl-pds">"</span></span>,
+   "\u001b[1;32m&lt;ipython-input-1-e898e9b939b5&gt;\u001b[0m in \u001b[0;36m&lt;module&gt;\u001b[1;34m()\u001b[0m\n\u001b[0;32m      3\u001b[0m \u001b[1;32mfrom\u001b[0m \u001b[0mbokeh\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mplotting\u001b[0m \u001b[1;32mimport\u001b[0m \u001b[1;33m*\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m      4\u001b[0m \u001b[1;32mfrom\u001b[0m \u001b[0mbokeh\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mcharts\u001b[0m \u001b[1;32mimport\u001b[0m \u001b[0mHeatMap\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mBar\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----&gt; 5\u001b[1;33m \u001b[1;32mimport\u001b[0m \u001b[0mseaborn\u001b[0m \u001b[1;32mas\u001b[0m \u001b[0msns\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m      6\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m      7\u001b[0m \u001b[0mget_ipython\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mmagic\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34mu'matplotlib inline'\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+   <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\u001b</span>[1;31mImportError<span class="pl-cce">\u001b</span>[0m: No module named seaborn<span class="pl-pds">"</span></span>
+  ]
+ }
+]</pre></div>
+
+<div class="highlight highlight-source-python"><pre></pre></div>
+
+<div class="highlight highlight-source-json"><pre>[
+ {
+  <span class="pl-s"><span class="pl-pds">"</span>ename<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>SyntaxError<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>evalue<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>invalid syntax (&lt;ipython-input-3-a357a8be2f4b&gt;, line 1)<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>output_type<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>error<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>traceback<span class="pl-pds">"</span></span>: [
+   <span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\u001b</span>[1;36m  File <span class="pl-cce">\u001b</span>[1;32m<span class="pl-cce">\"</span>&lt;ipython-input-3-a357a8be2f4b&gt;<span class="pl-cce">\"\u001b</span>[1;36m, line <span class="pl-cce">\u001b</span>[1;32m1<span class="pl-cce">\u001b</span>[0m<span class="pl-cce">\n\u001b</span>[1;33m    pip install git+git://github.com/mwaskom/seaborn.git#egg=seaborn<span class="pl-cce">\u001b</span>[0m<span class="pl-cce">\n\u001b</span>[1;37m              ^<span class="pl-cce">\u001b</span>[0m<span class="pl-cce">\n\u001b</span>[1;31mSyntaxError<span class="pl-cce">\u001b</span>[0m<span class="pl-cce">\u001b</span>[1;31m:<span class="pl-cce">\u001b</span>[0m invalid syntax<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>
+  ]
+ }
+]</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/yfung88">yfung88</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
